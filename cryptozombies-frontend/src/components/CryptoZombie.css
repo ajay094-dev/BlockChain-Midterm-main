@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c 0%, #928dab 100%);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .zombie-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+  }
+  
+  .zombie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px 0 rgba(31, 38, 135, 0.57);
+  }
+  
+  .zombie-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .text-md {
+    color: #e0e0e0;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .input-field {
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 2px solid #ff7f50;
+  }
+  
+  .button {
+    background: linear-gradient(135deg, #ff7f50, #ff6347);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 15px rgba(255, 127, 80, 0.3);
+  }
+  
+  .button:hover {
+    background: linear-gradient(135deg, #ff6347, #ff4500);
+    box-shadow: 0px 6px 20px rgba(255, 69, 0, 0.5);
+  }
+  
+  .txStatus {
+    font-size: 1.2rem;
+    color: #32cd32;
+    margin-bottom: 20px;
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .zombie-stats h3 {
+    font-size: 1.3rem;
+    color: #fff;
+  }
+  
+  .zombie-stats p {
+    font-size: 1rem;
+    color: #b8b8b8;
+  }
+  
+  .create-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
