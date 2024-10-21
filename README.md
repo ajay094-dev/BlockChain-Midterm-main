@@ -5,8 +5,11 @@ Team : Team Smart Contract Zombies
 ## Team Members
 
 **Ajaykumar Burigari** - 809320385 - Burigari@csu.fullerton.edu
+
 **Harshini Madhurai** - 832473029 - harshinimadhurai@csu.fullerton.edu
+
 **Bhargava Sriram Medharametla** - 816283923 - mbahrgavasriram@csu.fullerton.edu
+
 **Jayanth Vallabi** - 884435876 - jayanthvallabi@csu.fullerton.edu
 
 ## Project Overview
@@ -16,13 +19,21 @@ For our midterm project, we developed a decentralized application (DApp) inspire
 ## Enhancements Implemented
 
 **Deployment on Sepolia Testnet**: We deployed the smart contracts on the Sepolia testnet to simulate real-world blockchain interactions.
+
 **Enhanced Website Design**: The user interface was revamped to deliver a more engaging and user-friendly experience.
+
 **Custom Kitty Smart Contract**: A custom smart contract was developed on Ganache to generate new kitties, allowing for the creation and management of these entities.
+
 **ReactJS Front-End Migration**: The front-end code was migrated to ReactJS, improving maintainability and scalability.
+
 User-Created Zombies with Custom Names: Users can create zombies, assigning them unique, custom names.
+
 **Dynamic Zombie Cards**: Zombie cards dynamically reflect changes based on the current user's account, adding a personalized touch to the game.
+
 **Auto-Generated Zombie Images**: Zombie images are automatically generated based on the zombie's name and ID using Robohash.
+
 **Zombie Creation Limit**: Each user is allowed to create up to six zombies, adding a strategic element to the gameplay.
+
 **Metamask Integration**: The application connects to Ganache using the latest Metamask Web3 API, enabling seamless blockchain interactions.
 
 
@@ -72,33 +83,27 @@ npm run dev
 ```
 This launches the front-end development server, allowing you to interact with the DApp via the browser.
 
-Now, your DApp should be fully operational on your local machine, enabling you to create and manage your zombie army and kitties!
-
----
-
-Let me know if you need additional steps or clarifications!
 
 ## Deployment on Sepolia Testnet
 
-**1.** Set Up the Repository in Remix****
+1. Set Up the Repository in Remix
 First, open Remix, the online Solidity IDE, by navigating to Remix Ethereum. Once inside Remix, import your GitHub repository:
-
 Select the "GitHub" import option from the Remix file explorer.
 Provide the repository URL, and Remix will automatically load the project files, including your smart contracts.
+
 2. Add Sepolia Testnet to MetaMask
 Next, configure MetaMask to connect to the Sepolia Testnet:
-
 Open MetaMask and go to the networks menu, selecting "Add Network."
 Use the network details for Sepolia, which can be found at chainid.network. This will include the RPC URL, chain ID, currency symbol, and block explorer URL.
 Save the network, and ensure you switch to it before proceeding with the deployment.
+
 3. Deploy the ZombieOwnership Contract via Remix
 To deploy your ZombieOwnership contract, go to the "Deploy & Run Transactions" panel in Remix:
-
 Set the Environment dropdown to "Injected Provider - MetaMask," which will automatically connect Remix to your MetaMask wallet.
 When prompted, give permission to MetaMask to interact with Remix. This may require confirming a connection or signing a transaction.
+
 4. Deploy the Contract and Confirm on Sepolia
 After setting the environment to Sepolia:
-
 In the "Contract" dropdown, select ZombieOwnership (or whichever contract you are deploying).
 Click the Deploy button, which will trigger a transaction prompt in MetaMask. Confirm the transaction to deploy the contract.
 Once deployed, you can monitor the deployment confirmation either in the Remix console or by checking the transaction on Sepolia Etherscan using the block ID or transaction hash.
@@ -106,13 +111,20 @@ This process will deploy your contract to the Sepolia Testnet, allowing you to i
 
 ## Technologies Used
 
--Truffle: v5.4.25 – A development framework for Ethereum, used for compiling and deploying smart contracts.
+Truffle: v5.4.25 – A development framework for Ethereum, used for compiling and deploying smart contracts.
+
 Ganache: v2.5.4 – A personal blockchain for Ethereum development that allows you to deploy and test smart contracts locally.
+
 Solidity: 0.8.11 (solc-js) – The programming language used to write Ethereum smart contracts.
+
 Node.js: v14.16.0 – JavaScript runtime used for running the development environment and project dependencies.
+
 Web3.js: v1.2.7 – A JavaScript library used to interact with the Ethereum blockchain.
+
 ReactJS: For building the front-end of the decentralized application (DApp).
+
 Sepolia Testnet: Used for testing and deploying the DApp on a public test network.
+
 Remix Ethereum: Online IDE used for developing and deploying smart contracts directly from the browser.
 
 ## GitHub Link to the DApp: https://github.com/ajay094-dev/BlockChain-Midterm-main.git
